@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Webpack App</title>
+        <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Json Viewer</h1>
+        <div>
+            <label for="jsoninput"> Paste Json</label>
+        </div>
+        <div>
+            <p>
+            <textarea type="textarea" name="jsoninput" rows="4" cols="50"
+            id="jsonInpId"></textarea> 
+            </p>
+        </div>
+        <div>
+            <button id="submitid">submit</button>
+        </div>
+        <br/>  Or
+            Upload
+            <input name="jsonfile" type="file" id="fileinputId"/>
+            <br/>
+        <div id="jsonid" class="json-cont">
+
+        </div>
+    </body>
+    
+</html>
