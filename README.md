@@ -15,11 +15,5 @@ yarn build
 to bundle your application
 
 
-
-  "include":[
-    "/node_modules/json-viewer-js/lib/json-viewer.min.js"
-  ],
-  "typeRoots": [
-    "./jsonview",
-    "./node_modules/@types/"
-  ],
+This Applicaiton is wrapper for https://github.com/renhongl/json-viewer-js
+Thank you
